@@ -1,0 +1,36 @@
+ul {list-style-type:none;}
+li a {text-decoration:none;}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 30%;
+  background-color: green;
+  position:absolute;
+min-height:100%;
+  overflow: auto;
+    border-right: 1px;
+}
+
+li a {
+    display: block;
+  color: greenyellow;
+  padding: 8px 16px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 30px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: green;
+}
+a:link {color: lightyellow}
+a:visited {color: yellow}
+a {text-decoration: none}
+nav {font-size: 60px}
+<style>
+</style>
+header {font-size: 40px; float: right}
+h3 {text-align: right; text-align: justify;}
+header{background-color: green; padding-left: 10px; padding-bottom: 25px; color: yellow; font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";}
+footer {position: fixed; left: 0; bottom: 0; width: 100%; text-align: center;}
