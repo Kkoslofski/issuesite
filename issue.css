@@ -24,8 +24,8 @@ li a {
 li a.active {
   background-color: green;
 }
-a:link {color: lightyellow}
-a:visited {color: yellow}
+a:link {color: greenyellow}
+a:visited {color: lightgreen}
 a {text-decoration: none}
 nav {font-size: 60px}
 <style>
@@ -34,3 +34,4 @@ header {font-size: 40px; float: right}
 h3 {text-align: right; text-align: justify;}
 header{background-color: green; padding-left: 10px; padding-bottom: 25px; color: yellow; font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";}
 footer {position: fixed; left: 0; bottom: 0; width: 100%; text-align: center;}
+body {font-size: 20px}
